@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Full-stack Gallery Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A mobile responsive full-stack gallery web-app covering all the Entry level, One Intermediate and advanced stuff as discussed in the Problem statement. 
 
-## Available Scripts
+## Tech stack
 
-In the project directory, you can run:
+For Front-end- React.js
 
-### `npm start`
+For Back-end- Node.js and Express.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+MongoDB as the database
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Deployed on Heroku
 
-### `npm test`
+### `Relevant Links:-`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Live Hosted link
 
-### `npm run build`
+[https://atharva-gallery-app.herokuapp.com](https://atharva-gallery-app.herokuapp.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Source Code link
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[https://github.com/atharva162/gallery-app](https://github.com/atharva162/gallery-app)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Screenshots`
 
-### `npm run eject`
+[Screenshot-1.png](https://i.postimg.cc/sXVjzFbY/Screenshot-1.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Screenshot-2.png](https://i.postimg.cc/Hxr1tpMk/Screenshot-3.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Screenshot-3.png](https://i.postimg.cc/0QZm2F71/Screenshot-5.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[Screenshot-4.png](https://i.postimg.cc/vTFcYJv3/Screenshot-7.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Screenshot-4.png](https://i.postimg.cc/28fBqQ2c/Screenshot-4.png)
 
-## Learn More
+### `Steps to run this code`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1- Unzip the code (if present in zipped file) or clone this repo from github.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2- In your terminal run the command `npm run build` this will create a build folder which will be used by the express server to send the index.html file from the generated build folder.
 
-### Code Splitting
+3- Now to eun this app type the command `npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4- Now the App can be successfully viewed on `http://localhost:5000`
 
-### Analyzing the Bundle Size
+### `Steps to deploy this App`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1- To deploy this App, create a free-tier acccount on Heroku
 
-### Making a Progressive Web App
+2- On the dashboard click on create a new app and then further provide some name for this App.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3- Click on connect to Github under the deployment section
 
-### Advanced Configuration
+4- Search for your repository from the search button in which this code is hosted.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+5- In the deploy section select the branch to deploy and click on the Deploy Branch Button
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+6- Once the deployment is completed, a success message will along with the option to view your deployed App. 
