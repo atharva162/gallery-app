@@ -46,7 +46,7 @@ Source Code link
 
 ### `Steps to deploy this App`
 
-1- To deploy this App, create a free-tier acccount on Heroku
+1- To deploy this App, create a free-tier account on Heroku
 
 2- On the dashboard click on create a new app and then further provide some name for this App.
 
